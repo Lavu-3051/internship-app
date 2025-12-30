@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Local Internship Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+    <header>
+        <h1>Local Internship & Skill Finder</h1>
+        <p>Find internships and skill opportunities near you</p>
+    </header>
+
+    <section class="filter">
+    <label>Select Skill:</label>
+
+    <select id="skillFilter">
+        <option value="All">All</option>
+        <option value="Web Development">Web Development</option>
+        <option value="Python">Python</option>
+        <option value="Data Science">Data Science</option>
+        <option value="Frontend">Frontend</option>
+    </select>
+
+    <br><br>
+
+    <input type="text" id="searchInput" placeholder="Search by title or location">
+</section>
+
+    <section id="internshipList">
+        <!-- Internship cards will appear here -->
+    </section>
+
+        <script src="script.js"></script>
+
+</body>
+</html>
